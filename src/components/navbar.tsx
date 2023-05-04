@@ -51,7 +51,7 @@ export const Navbar = () => {
                         </div>
 
                         <Link className="hidden md:flex bg-blue-500 hover:bg-blue-600 scale-100 hover:scale-110  transition-transform text-white font-bold py-0.5 px-4 rounded"
-                            to='createpost'> Crate Post
+                            to='createpost'> Create Post
                         </Link>
                     </>
                 }
@@ -74,7 +74,7 @@ export const Navbar = () => {
             }`}>
             <div className="w-full h-full flex items-center justify-evenly ">
                 <Link className="bg-blue-500 hover:bg-blue-600 scale-100 hover:scale-110  transition-transform text-white font-bold py-0.5 px-4 rounded"
-                    to='createpost'> Crate Post
+                    to='createpost'> Create Post
                 </Link>
                 <button className="animate-none hover:animate-pulse transition-animation bg-blue-500 hover:bg-red-500  text-white font-bold py-0.5 px-4 rounded" onClick={singUserOut}>Log Out</button>
             </div>

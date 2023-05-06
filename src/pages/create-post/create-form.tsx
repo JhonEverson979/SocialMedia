@@ -71,8 +71,7 @@ export const CreateForm = () => {
                 className="inline-block h-4 w-4 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
                 role="status">
             </div>}
-
-            <input className="bg-blue-500 w-full hover:bg-blue-600 scale-100 hover:scale-110  transition-transform text-white font-bold py-0.5 px-4 rounded" type='submit' />
+            <input value='Submit' className="bg-blue-500 w-full hover:bg-blue-600 scale-100 hover:scale-110  transition-transform text-white font-bold py-0.5 px-4 rounded" type='submit' />
         </div>
     </form>
 }
